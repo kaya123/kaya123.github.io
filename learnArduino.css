@@ -1,18 +1,30 @@
-h1 {
+h1 
+{
     color: blue;
 }
 
-a {
+a 
+{
     text-decoration: none;
     color: rgb(0, 0, 200);
 }
 
-nav > a {
+nav > a 
+{
     display: inline-block;
     padding: 20px 100px; 
     color: rgb(0, 0, 200);
 }
+nav > a : hover
+{
+    background-color: rgb(200, 200, 250);
+    color: rgb(0, 0, 100);
+}
 
-.home {
+
+
+.home 
+{
     border-right: 2px solid black;    
 }
+
