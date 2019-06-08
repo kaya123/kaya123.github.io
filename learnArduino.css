@@ -1,11 +1,18 @@
 h1 {
-    color: purple;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 200);
 }
 
 nav > a {
     display: inline-block;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-    padding: 20px; 
-    color: rgb(100, 0, 100);
+    padding: 20px 100px; 
+    color: rgb(0, 0, 200);
+}
+
+.home {
+    border-right: 2px solid black;    
 }
