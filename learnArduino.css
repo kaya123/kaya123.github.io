@@ -14,12 +14,13 @@ a
 nav 
 {
     text-align: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
 }
 
 nav > a 
 {
     display: inline-block;
-    border: 2px solid black;
     color: rgb(100, 100, 200);
 }
 nav > a : hover
@@ -35,6 +36,6 @@ nav > a : hover
 
 article 
 {
-    
+
 }
 
