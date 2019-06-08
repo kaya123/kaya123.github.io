@@ -1,6 +1,7 @@
 h1 
 {
     color: blue;
+    text-align: center;
 }
 
 a 
@@ -8,6 +9,11 @@ a
     padding: 20px 100px; 
     text-decoration: none;
     color: rgb(100, 100, 200);
+}
+
+nav 
+{
+    text-align: center;
 }
 
 nav > a 
@@ -22,10 +28,13 @@ nav > a : hover
     color: rgb(50, 50, 100);
 }
 
-
-
 .home 
 {
     border-right: 2px solid black;    
+}
+
+article 
+{
+    
 }
 
