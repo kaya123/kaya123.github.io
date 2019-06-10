@@ -9,6 +9,8 @@ a
     padding: 20px 100px; 
     text-decoration: none;
     color: rgb(100, 100, 200);
+    background-color: rgb(200, 150, 250);
+
 }
 
 p 
@@ -43,11 +45,17 @@ nav > a:hover
 article 
 {
     background-color: rgb(150, 150, 220);
-    padding: 100px 30px;
+    padding: 50px 30px;
     display: inline-block;
+    border-radius: 30px;
 }
 
-img 
+article > img 
 {
     width: 300px;
+}
+
+li 
+{
+    padding: 50px;
 }
