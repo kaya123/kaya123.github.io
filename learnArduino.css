@@ -9,7 +9,7 @@ a
     padding: 20px 100px; 
     text-decoration: none;
     color: rgb(100, 100, 200);
-    background-color: rgb(200, 150, 250);
+    background-color: rgb(150, 150, 250);
 
 }
 
@@ -62,5 +62,6 @@ li
 
 li > img 
 {
+    display: inline-block;
     width: 20px;
 }
