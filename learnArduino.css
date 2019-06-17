@@ -1,3 +1,8 @@
+body
+{
+    text-align: center;
+}
+
 h1 
 {
     color: 100, 100, 200;
@@ -52,7 +57,7 @@ article
 
 article > img 
 {
-    width: 30px;
+    width: 300px;
 }
 
 li 
@@ -63,5 +68,6 @@ li
 li > img 
 {
     display: inline-block;
-    width: 20px;
+    width: 40px;
+    border-radius: 5px;
 }
