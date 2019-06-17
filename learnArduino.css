@@ -67,10 +67,15 @@ li
 
 .requirements > img 
 {
-    display: block;
     width: 40px;
     border-radius: 5px;
     text-align: left;
+
+}
+
+.requirements 
+{
+    display: block;
     width: 200px;
 }
 
