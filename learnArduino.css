@@ -84,6 +84,7 @@ li > img
     display: block;
     width: 200px;
     border-right: 2px solid darkblue;
+    float: left;
 }
 
 section
@@ -95,5 +96,6 @@ section
 {
     text-align: right;
     width: 200px;
+    float: right;
 }
 
