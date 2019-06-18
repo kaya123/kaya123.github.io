@@ -24,6 +24,11 @@ p
     text-align: center;
 }
 
+img 
+{
+    border-radius: 10px;
+}
+
 nav 
 {
     text-align: center;
@@ -71,7 +76,7 @@ li > img
     width: 40px;
     border-radius: 5px;
     text-align: left;
-    image-resolution: 30dpi;
+    image-resolution: 3dpi;
 }
 
 .requirements 
