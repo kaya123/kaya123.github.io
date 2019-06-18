@@ -68,7 +68,7 @@ article > img
 
 li 
 {
-    padding: 50px;
+    padding: 5px;
 }
 
 li > img 
@@ -83,6 +83,7 @@ li > img
 {
     display: block;
     width: 200px;
+    border-right: 2px solid darkblue;
 }
 
 section
@@ -95,3 +96,4 @@ section
     text-align: right;
     width: 200px;
 }
+
