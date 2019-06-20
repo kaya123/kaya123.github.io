@@ -91,6 +91,7 @@ li > img
 section
 {
     width: 600px;
+    margin: 30px;
 }
 
 .explainingImage
@@ -98,6 +99,7 @@ section
     text-align: right;
     width: 200px;
     float: right;
+    margin-top: -200px;
 }
 
 aside 
@@ -105,6 +107,7 @@ aside
     display: block;
     background-color: lightblue;
     margin: 500px;
+    width: 300px;
 }
 
 .steps > li
