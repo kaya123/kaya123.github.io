@@ -64,6 +64,7 @@ article
 article > img 
 {
     width: 300px;
+    float: top;
 }
 
 li 
@@ -81,7 +82,7 @@ li > img
 
 .requirements 
 {
-    display: block;
+    display: inline-block;
     width: 200px;
     border-right: 2px solid darkblue;
     float: left;
@@ -101,6 +102,7 @@ section
 
 aside 
 {
+    display: block;
     background-color: lightblue;
     margin: 500px;
 }
