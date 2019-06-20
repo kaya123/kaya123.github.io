@@ -89,7 +89,7 @@ li > img
 
 section
 {
-    width: 400px;
+    width: 600px;
 }
 
 .explainingImage
@@ -102,9 +102,10 @@ section
 aside 
 {
     background-color: lightblue;
+    margin: 500px;
 }
 
-.steps 
+.steps > li
 {
     list-style: none;
 }
