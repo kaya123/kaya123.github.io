@@ -114,3 +114,10 @@ aside
 {
     list-style: none;
 }
+
+.code
+{
+    color: green;
+    background-color: black;
+    padding: 5px;
+}
