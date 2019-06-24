@@ -26,10 +26,10 @@
                 <h2>Step 1</h2>
                 <section>
                     <p>Connect one wire to "GND", and one to any of the numbers 1-13, <br>
-                    for this tutorial we will be using '6'</p>        
+                    for this tutorial we will be using '7'</p>        
                     <aside class="extra">
                         <h3>What does this mean?</h3>
-                        <p>The holes in which you can insert your wires are called "pins" and those with numbers on them give power output, the ones with a '-' in front of them can give output from 0-255, whereas those without give either full power or nothing, depending on how you program them.<br>
+                        <p>The holes in which you can insert your wires are called "pins" they can take input or give power output, the ones with a '-' in front of them can give output from 0-255, whereas those without give either full power or nothing, depending on how you program them.<br>
                         The "GND" pin stands for "ground" and is the end of your circut.</p>
                     </aside>
                 </section>
@@ -57,10 +57,47 @@
                         Well done! You have completed the circut, lets start coding!<br>
                         The code to make the LED flash is shown below, we will go through it line by line
                     </p>
-                    <img src="./images/instructionsTwoBrownWires.JPG" class="explainingImage">
+                    <img src="./images/ArduinoFlashCode.JPG" class="explainingImage">
                     <ol>
                         <li>
-                            <p class=code>void setup() {<br>}</p>
+                            <p class=code> void setup() {<br>}</p>                            
+<!--                             <p class=code>int buttonPin = 2;<br>int LEDPin = 3;</p>
+                            <p>
+                                We are going to set buttonPin (orLEDPin) to something, <br>
+                                every time you use buttonPin (orLEDPin) it will mean what you set it to. <br>
+                                In this case we set buttonPin
+                            </p> -->
+                            <p>
+                                "void" basically means "nothing", <br>
+                                so in this case we can ignore it. <br>
+                                "setup()" is the name of this block of code that runs when the program is started, to set everything up. <br>
+                                The curly brackets go around the block of code.
+                            </p>
+
+                        </li>
+                        <li>
+                            <p class=code>    // put your setup code here, to run once:</p>                            
+                            <p>
+                                The "//" just means that everything after it on that line is a comment. <br>
+                                It does nothing except tell the reader of the code something, <br>
+                                This is very usefull, it can help you and others read and understand your code.
+                            </p>
+                        </li>
+                        <li>
+                            <p class=code>   pinMode(7, OUTPUT);</p>                            
+                            <p>
+                                This sets pin 7's mode to OUTPUT, <br>
+                                output means it will give the circut power <br>
+                                Note how the last two lines are "indented", or moved forward 4 spaces, this shows that they are a part of "setup".
+                            </p>
+                        </li>
+                        <li>
+                            <p class=code>void loop() { }</p>                            
+                            <p>
+                                This sets pin 7's mode to OUTPUT, <br>
+                                output means it will give the circut power <br>
+                                Note how the last two lines are "indented", or moved forward 4 spaces, this shows that they are a part of "setup".
+                            </p>
                         </li>
                     </ol>
                     <aside class="extra">
