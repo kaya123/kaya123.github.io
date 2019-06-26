@@ -13,7 +13,7 @@
         <h1>Tutorial 1 - Flashing LED</h1>
         <p>Welcome to your first tutorial!</p>
         <h2>You will need:</h3>
-        <ul class="requirements">
+        <ul class="requirements column0">
             <li>1x Arduino <img src="./images/squareArduino.JPG"></li>         
             <li>1x breadboard <img src="./images/squareBreadboard.JPG"></li>
             <li>1x LED <img src="./images/redLEDSquare.JPG"></li>
@@ -33,8 +33,8 @@
                         The "GND" pin stands for "ground" and is the end of your circut.</p>
                     </aside>
                 </section>
-                <img src="./images/instructionsTwoBrownWires.JPG" class="explainingImage">
             </li>
+            <img src="./images/instructionsTwoBrownWires.JPG" class="explainingImage column1">
             <li>                
                 <h2>Step 1</h2>
                 <section>
@@ -60,7 +60,7 @@
                     <img src="./images/ArduinoFlashCode.JPG" class="explainingImage">
                     <ol>
                         <li>
-                            <p class=code> void setup() {<br>}</p>                            
+                            <p class=code> void setup() { }</p>                            
 <!--                             <p class=code>int buttonPin = 2;<br>int LEDPin = 3;</p>
                             <p>
                                 We are going to set buttonPin (orLEDPin) to something, <br>
@@ -94,10 +94,10 @@
                         <li>
                             <p class=code>void loop() { }</p>                            
                             <p>
-                                This sets pin 7's mode to OUTPUT, <br>
-                                output means it will give the circut power <br>
-                                Note how the last two lines are "indented", or moved forward 4 spaces, this shows that they are a part of "setup".
+                                This contains the "loop" part of the code, it repeats till the Arduino is turned off or you tell it to.<br>
+                                Note how this is very similar to "void setup() {}".
                             </p>
+                            
                         </li>
                     </ol>
                     <aside class="extra">
