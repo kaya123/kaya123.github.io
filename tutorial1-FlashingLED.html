@@ -29,7 +29,7 @@
                     for this tutorial we will be using '7'</p>        
                     <aside class="extra">
                         <h3>What does this mean?</h3>
-                        <p>The holes in which you can insert your wires are called "pins" they can take input or give power output, the ones with a '-' in front of them can give output from 0-255, whereas those without give either full power or nothing, depending on how you program them.<br>
+                        <p>The holes in which you can insert your wires are called "pins" they can take input or give power output, depending on how you program them.<br>
                         The "GND" pin stands for "ground" and is the end of your circut.</p>
                     </aside>
                 </section>
@@ -60,7 +60,7 @@
                     <img src="./images/ArduinoFlashCode.JPG" class="explainingImage">
                     <ol>
                         <li>
-                            <p class=code> void setup() { }</p>                            
+                            <p class=code> void setup() {</p>                            
 <!--                             <p class=code>int buttonPin = 2;<br>int LEDPin = 3;</p>
                             <p>
                                 We are going to set buttonPin (orLEDPin) to something, <br>
@@ -88,29 +88,54 @@
                             <p>
                                 This sets pin 7's mode to OUTPUT, <br>
                                 output means it will give the circut power <br>
-                                Note how the last two lines are "indented", or moved forward 4 spaces, this shows that they are a part of "setup".
+                                Note how the last two lines are "indented", or moved forward 4 spaces, this shows that they are a part of "setup".<br>
+                                You will also notice that the line ends with a semicolon, this shows that the line has ended.
                             </p>
                         </li>
                         <li>
-                            <p class=code>void loop() { }</p>                            
+                            <p class=code>}</p>                            
+                            <p>
+                                Ends setup.
+                            </p>
+                        </li>
+                        <li>
+                            <p class=code>void loop() {</p>                            
                             <p>
                                 This contains the "loop" part of the code, it repeats till the Arduino is turned off or you tell it to.<br>
                                 Note how this is very similar to "void setup() {}".
                             </p>
                             
                         </li>
+                        <li>
+                            <p class=code>  digitalWrite(7, HIGH);</p>                            
+                            <p>
+                                "digitalWrite" lets you change the power of a certain pin, in this case pin 7. <br>
+                                You can use "HIGH" or "LOW" to turn the power on or off, which then switches the LED on and off. <br>
+                                Note that this line is also indented because it belongs to the loop().
+                            </p>
+                        </li>
+                        <li>
+                            <p class=code>  delay(1000);</p>                            
+                            <p>
+                                "delay" pauses the program for the number of milliseconds specified in the brackets, In this case 1000<br>
+                                One millisecond is 1/1000 of a second, so 1000 milliseconds is one second.
+                                Note that this line is also indented because it belongs to the loop().
+                            </p>
+                        </li>
+                        <li>
+                            <p class=code>  digitalWrite(7, LOW);</p>                            
+                            <p>
+                                Turns off the LED, explained ubove.
+                            </p>
+                        </li> 
+                        <li>
+                            <p class=code>}</p>                            
+                            <p>
+                                End of the loop, when it reaches this is goes back to <p class=code>void loop() {</p>, then moves down, line by line till it reaches this statement again, and repeats.
+                                The only way this cycle can be broken is through a return statement which we will cover later.
+                            </p>
+                        </li>
                     </ol>
-                    <aside class="extra">
-                        <h3>What does this mean?</h3>
-                        <p> 
-                            The breadboard connects all your components and wires without requiring soldering,<br>
-                            The diagram on the right shows which holes are conected to which others.<br>
-                            The resistor reduces the amount of power going to the LED so it doesn't burn out <br>
-                            The long leg of the LED is called the cathode and connects to the power source through the resistor.
-                            <br>
-                            The short leg is called the anode and connects to ground.
-                        </p>
-                    </aside>
                 </section>
                 <img src="./images/instructionsTwoBrownWires.JPG" class="explainingImage">
             </li>
