@@ -145,3 +145,9 @@ aside
 {
     margin-bottom: 5000px;
 }
+
+.completed
+{
+    padding: 50px;
+    background-color: lightgreen;
+}
