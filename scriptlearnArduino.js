@@ -3,4 +3,4 @@ function completePuzzleTwo() {
   alert ("Well Done!");
 }
 
-completed.onclick = completePuzzleTwo;
+completed.onclick = completePuzzleTwo();
